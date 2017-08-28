@@ -1,0 +1,57 @@
+name: Kit3rB
+main: Kit3rB\Main
+version: 1.0
+api: [3.0.0]
+load: HunterPVP
+author: MLK3
+description: Kits Plugin by MLK3.
+commands:
+ kitlist:
+  description: List available Kits
+  usage: "/kitlist"
+  permission: skpe.kitlist
+ diamondkit:
+  description: Get a Diamond Kit
+  usage: "/diamondkit"
+  permission: skpe.diamond
+ ironkit:
+  description: Get a Iron Kit
+  usage: "/ironkit"
+  permission: skpe.iron
+ goldenkit:
+  description: Get a Golden Kit
+  usage: "/goldenkit"
+  permission: skpe.golden
+ chainkit:
+  description: Get a Chain Kit
+  usage: "/chainkit"
+  permission: skpe.chain
+ leatherkit:
+  description: Get a Leather Kit
+  usage: "/leatherkit"
+  permission: skpe.leather
+ foodkit:
+  description: Get a Food Kit
+  usage: "/foodkit"
+  permission: skpe.food
+ bowkit:
+  description: Get a Bow Kit
+  usage: "/bowkit"
+  permission: skpe.bow
+permissions:
+ skpe.kitlist:
+  default: true
+ skpe.diamond:
+  default: op
+ skpe.iron:
+  default: op
+ skpe.golden:
+  default: op
+ skpe.chain:
+  default: op
+ skpe.leather:
+  default: true
+ skpe.food:
+  default: true
+ skpe.bow:
+  default: true
