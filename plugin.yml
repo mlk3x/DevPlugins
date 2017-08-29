@@ -1,0 +1,5 @@
+name: Kit3rB
+main: Kit3rB\Main
+version: 1.0
+api: [3.0.0]
+description: Kit3rB
