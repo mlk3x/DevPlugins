@@ -1,7 +1,0 @@
-name: Kit3rB
-main: Kit3rB\Main
-version: 1.0
-api: [3.0.0]
-load: PVP
-author: MLK3
-description: KitPVP
